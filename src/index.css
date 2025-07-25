@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* No other CSS should be here for now, especially not body, a, or div styles */
