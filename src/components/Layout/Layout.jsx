@@ -36,7 +36,7 @@ function Layout() {
       <header className="bg-blue-600 text-white p-4 shadow-md">
         <nav className="container mx-auto flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold">
-            Swaastya
+            <img src="/Swaastya-web-/swaastya-logo.png" alt="Swaastya Logo" className="h-24" />
           </Link>
           <div className="space-x-4 flex items-center">
             {/* Always visible general links */}

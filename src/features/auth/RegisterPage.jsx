@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 function RegisterPage() {
   const [email, setEmail] = useState("");
@@ -8,6 +8,18 @@ function RegisterPage() {
   const [error, setError] = useState(""); // State for displaying errors
 
   const navigate = useNavigate();
+  const location = useLocation(); // Get the current location object
+
+  // State to store the role from URL query parameter
+  const [registrationRole, setRegistrationRole] = useState(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const role = params.get("role");
+    if (role) {
+      setRegistrationRole(role);
+    }
+  }, [location]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,9 +43,13 @@ function RegisterPage() {
       "Registration button clicked! Check console for data. (No actual registration yet)"
     );
 
-    // Simulate successful registration and redirect to role selection
+    // Simulate successful registration and redirect based on role
     // In a real app, this would happen after a successful API response
-    navigate("/select-role"); // <--- THIS IS THE CHANGE!
+    if (registrationRole === "patient") {
+      navigate("/patient/dashboard");
+    } else {
+      navigate("/select-role"); // Fallback to role selection if no specific role or other role
+    }
   };
 
   return (
