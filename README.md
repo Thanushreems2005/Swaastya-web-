@@ -1,12 +1,71 @@
-# React + Vite
+# 🌿 Swaastya Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Swaastya Web** – a health and wellness themed website designed to promote awareness and accessibility of healthcare information.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Swaastya Web](https://Thanushreems2005.github.io/Swaastya-web-)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 About the Project
+Swaastya Web is a simple, responsive website built to provide health-related resources in an engaging and user-friendly manner. It is designed with a clean interface and focuses on spreading awareness about health, hygiene, and wellness practices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+- 🌍 Responsive design for all screen sizes
+- 🧑‍⚕️ Health-related content & awareness
+- 🎨 Simple and clean UI/UX
+- ⚡ Fast and lightweight static site
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5** – Structure
+- **CSS3** – Styling and layout
+- **JavaScript** – Interactivity
+- **GitHub Pages** – Deployment
+
+---
+
+## 📂 Project Structure
+```
+Swaastya-web/
+│── index.html       # Main landing page
+│── style.css        # Stylesheet
+│── script.js        # JavaScript functionality
+│── assets/          # Images and icons
+│── README.md        # Project documentation
+```
+
+---
+
+## 📸 Screenshots
+(Add screenshots of your website here for better presentation)
+
+---
+
+## 🚦 How to Use
+1. Open the [Live Demo](https://Thanushreems2005.github.io/Swaastya-web-).
+2. Explore the homepage and available sections.
+3. Learn and get inspired to practice healthy living!
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! If you'd like to improve this project:
+1. Fork the repo
+2. Create a new branch (`feature-branch`)
+3. Commit your changes
+4. Push and create a Pull Request
+
+---
+
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 💡 Acknowledgements
+- Inspiration: Promoting health and wellness through digital platforms
+- Hosted with ❤️ on GitHub Pages
+
