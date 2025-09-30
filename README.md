@@ -16,7 +16,6 @@ Swaastya Web is a simple, responsive website built to provide health-related res
 - 🧑‍⚕️ Health-related content & awareness
 - 🎨 Simple and clean UI/UX
 - ⚡ Fast and lightweight static site
-- 
 ---
 
 ## 🚦 How to Use
