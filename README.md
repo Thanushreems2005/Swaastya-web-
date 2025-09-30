@@ -16,32 +16,7 @@ Swaastya Web is a simple, responsive website built to provide health-related res
 - 🧑‍⚕️ Health-related content & awareness
 - 🎨 Simple and clean UI/UX
 - ⚡ Fast and lightweight static site
-
----
-
-## 🛠️ Tech Stack
-- **HTML5** – Structure
-- **CSS3** – Styling and layout
-- **JavaScript** – Interactivity
-- **GitHub Pages** – Deployment
-
----
-
-## 📂 Project Structure
-```
-Swaastya-web/
-│── index.html       # Main landing page
-│── style.css        # Stylesheet
-│── script.js        # JavaScript functionality
-│── assets/          # Images and icons
-│── README.md        # Project documentation
-```
-
----
-
-## 📸 Screenshots
-(Add screenshots of your website here for better presentation)
-
+- 
 ---
 
 ## 🚦 How to Use
